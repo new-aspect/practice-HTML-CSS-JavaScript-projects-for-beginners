@@ -1,0 +1,14 @@
+body {
+    margin: 0; /*将body的默认外边距设为0，去除浏览器默认的边框*/
+    display: flex; /* 将body设置为flex布局，使其子元素（即`.testimonial-container`使）可以方便的居中对齐*/
+    justify-content: center; /*这个让整个移动到中间了*/
+    height: 100vh; /*将body的高度设置为视口高度的100%*/
+    align-items: center; /* 在垂直方向居中对齐子元素 */
+    font-family: cursive; /* 设置全局字体为cursive风格 */
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /*一下子就从正方形的变成了全圆角的*/
+}
